@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular_lib'),
+      dir: require('path').join(__dirname, '../../coverage/micclo-lib'),
       subdir: '.',
       reporters: [
         { type: 'html' },
